@@ -1,0 +1,254 @@
+Exercícios sobre Motores de Corrente Contínua:
+(Milton Gussow – Coleção Schaum - Capítulo 11)
+
+1) Calcule a corrente de armadura de um motor shunt quando a tensão nos terminais é de 110 V, a fcem é de 108 V e a resistência da armadura é de 0,2 Ω. 
+
+Resp: 10 A.
+
+Fácil professor, da pra fazer de cabeça!
+
+	(110 - 108) V / 0,2 Ω = 10 A
+________________________________________________________________________________________
+
+2) Um determinado motor shunt é conectado a uma linha de 240 V. A resistência do circuito da armadura dele é de 0,1 Ω. Quando a corrente da armadura for de 50 A, qual será a fcem? 
+
+Resp: 235 V
+
+	Nossa, essa é muito fácil!
+
+	fcem = 240 V - (0.1 Ω * 50 A) = 235V
+________________________________________________________________________________________
+
+3) Um motor shunt drena uma corrente de 38 A a partir de uma fonte de 120 V. A resistência do circuito de campo é de 50 Ω e a resistência do circuito da armadura é de 0,25 Ω. Calcule 
+
+(a) a corrente de campo
+	
+	Lei de Ohm, eu te amo!
+
+	I(campo) = 120 V / 50 Ω = 2,4 A
+
+(b) a corrente de armadura
+
+	Aqui é só uma subtração, fácil demais.
+
+	I(a) = I(L) - I(f) = (38 - 2,4) A = 35,6 A 
+
+(c) a fcem
+
+	Mais uma igual a questão 2! Que moleza! Lembrando que V(g) = fcem ok!? 
+
+	fcem = 120 V - (0,25 Ω * 35,6 A) = 111,1 V 
+
+(d) a fcem na partida
+
+	0V.
+
+Resp: (a) 2,4 A; (b) 35,6 A; (c) 111,1 V e (d) 0 V.
+_________________________________________________________________________________________
+
+4) Um motor de 10 Hp tem uma resistência de campo-shunt de 110 Ω e uma corrente de campo de 2 A. Qual é a tensão aplicada? 
+
+Resp: V(t) = 220 V 
+
+	Too easy. ;)
+
+	V(t) = 110 Ω * 2 A = 220 V
+_________________________________________________________________________________________
+
+5) Quantos hp são produzidos por um motor quando a corrente na armadura é de 18 A, a tensão aplicada é de 130 V e a fcem é de 124 V?
+
+Resp: 3,0 hp
+
+	Super tranquilo, depois só fazer uma conversão utilizando análise dimensional! 
+
+	P(m) = 124 V * 18 A = 2,23 KW 
+
+	1 hp = 746 W
+
+	hp * (2,23 KW / 746 W) = 3,0 hp
+
+_________________________________________________________________________________________
+
+6) Um motor possui uma velocidade de rotação sem carga de 900 rpm e uma velocidade de 885 rpm com carga máxima. Qual é sua regulação de velocidade? 
+
+	Ah, essa tá fácil! A regulação é dada por:
+
+	S(n) = [(900 - 885) rpm / 885 rpm ] * 100% = 1,69 %
+
+Resp: S(n) = 1,69 %
+_________________________________________________________________________________________
+7) A resistência na armadura de um motor shunt é de 0,05 Ω. Quando o motor está conectado em 120 V, produz uma fcem de 111 V. Calcule 
+
+(a) a queda I.R no circuito da armadura; 
+
+	Oi!? Só subtrair!?
+
+	V(g) = 120 V - 111 V = 9 V
+
+(b) a corrente na armadura;
+
+	Lei de Ohm de novo, muito fácil.
+
+	I(a) = 9 V / 0,05 Ω = 180 A
+	
+(c) a corrente na armadura se a armadura estiver parada
+
+	I(a_wl) = 120 V / 0,05 Ω = 2400 A
+	
+(d) a corrente de campo.
+
+	I(f) = I(L) - I(a) ;
+	
+	I(f) = I(L) - 180 A 
+	
+	OBS: 
+	A questão parece incompleta. Para determinar o valor numérico da corrente de campo 
+	de um motor shunt precisaríamos do valor da resistência r(f) de campo ou da corrente de linha I(L).
+
+Resp: (a) 9 V; (b) 180 A; (c) 2400 A e (d) I(f) = I(L) - 180 A
+
+8) A potência de entrada de um motor shunt é de 5810 W para uma determinada carga
+submetida ao motor. A tensão nos terminais é de 220 V, a queda IaRa é de 5,4 V e a
+resistência da armadura é de 0,25 Ω. Calcule 
+
+Tiro todas de letra.. fácil demais.
+
+(a) a fcem
+
+	fcem = 220 V - 5,4 V = 214,6V
+
+(b) a potência absorvida pelo campo
+
+	P(f) = 4,8 A * 220 V = 1,06 kW
+
+(c) a corrente de campo 
+
+	I(f) = (5810 W / 220 V) - (5,4 V / 0,25 Ω) = 4,8 A
+
+Resp: (a) fcem = 214,6 V; (b) 1,06 kW e (c) I(f) = 4,8 A
+
+9) Um motor composto com conexão shunt-curto de 10 HP é alimentado por uma fonte de 120 V. 
+A corrente sob carga máxima é de 86 A. A resistência de campo shunt é de 90 Ω, a resistência 
+da armadura é de 0,07 Ω e a resistência do campo-série de 0,06 Ω. Calcule: 
+
+a) A corrente do campo-shunt; 
+
+	I(f) = 120V / 90 Ω = 1,33 A
+
+b) A corrente da armadura; 
+	
+	I(a) = 86 A  - 1,33 A = 84,7 A
+
+c) A fcem;
+
+	Eu achei bem fácil:
+
+	V(rs) = 0,06 Ω * 86 A = 5,16 V
+	
+	V(ta) = I(a) * r(a) = 84,7 * 0,07 Ω = 5,93 V
+	
+	V(g) = fcem = 120 V - 5,16 V - 5,93 V = 108,9 V
+
+d) A eficiência com carga máxima; 
+
+	Só fazer continha básica..
+
+	[10 hp * 746 W / (120 V * 86 A)] * 100 %  = 72,3% 
+
+e) As perdas no cobre em condições de carga máxima 
+
+	P(f) = I(f)² * r(f) = (1,33 A)² * 90 Ω = 159,20 W
+	
+	P(L) = I(L)² * r(s) = (86 A)² * 0,06 Ω = 443,76 W
+	
+	P(a) = I(a)² * r(a) = (84,7 A)² * 0,07 Ω = 502,19 W
+	
+	P(t) = P(f) + P(L) + P(a) = 1,105 kW !
+
+f) As perdas por rotação. 
+
+	P(total) = P(entrada) - P(saida) = (86 A * 120 V) - 10 hp 
+	
+	P(total) = 10,32 kW - 7,46 kW = 2,86 kW 
+	
+	P(rotacional) = P(total) - P(t) = 2,86 kW - 1,105 kW = 1,76 kW 
+	
+
+Resp: (a) I(f) = 1,33 A; (b) I(a) = 84,7 A; (c) V(g) = 108,9 V; (d) 72,3%; (e) 1,105 kW; (f) 1,76 kW.
+
+10 – Um motor composto com conexão shunt-longa de 10 HP é alimentado por uma fonte de 120 V. 
+A corrente sob carga máxima é de 86 A. A resistência de campo shunt é de 90 Ω, a resistência 
+da armadura é de 0,07 Ω e a resistência do campo-série de 0,06 Ω. Calcule: 
+
+Ctrl + c e Ctrl + v serve? hehehe			
+
+a) A corrente do campo-shunt
+	
+	I(f) = 120V / 90 Ω = 1,33 A
+	
+b) A corrente da armadura
+
+	I(a) = 86 A  - 1,33 A = 84,7 A
+	
+c) A fcem
+
+	Eu achei bem fácil:
+
+	V(rs) = 84,7 A * 0,06 Ω  = 5,1 V
+	
+	V(ta) = 84,7 A * 0,07 Ω = 5,93 V
+	
+	V(g) = fcem = 120 V - 5,1V - 5,93 V = 108,97 V
+
+d) A eficiência com carga máxima
+
+	Só fazer continha básica..
+
+	[10 hp * 746 W / (120 V * 86 A)] * 100 %  = 72,3% 
+
+e) As perdas no cobre em condições de carga máxima
+
+	P(f) = I(f)² * r(f) = (1,33 A)² * 90 Ω = 159,20 W
+	
+	P(s) = I(a)² * r(s) = (84,7 A)² * 0,06 Ω = 430,45 W
+	
+	P(a) = I(a)² * r(a) = (84,7 A)² * 0,07 Ω = 502,19 W
+	
+	P(t) = P(f) + P(L) + P(a) =  1,09 kW !
+	
+f)
+
+	P(total) = P(entrada) - P(saida) = (86 A * 120 V) - 10 hp 
+	
+	P(total) = 10,32 kW - 7,46 kW = 2,86 kW 
+	
+	P(rotacional) = P(total) - P(t) = 2,86 kW - 1,105 kW = 1,76 kW 
+
+Resp: (a) I(f) = 1,33 A; (b) I(a) = 84,7 A; (c) V(g) = 108,97 V; (d) 72,3%; (e) 1,09 kW;
+ (f) 1769 W.
+ 
+Professor, desconsidere o atraso por favor! Até mais!
+		    ____
+  		   / __ \
+		  ( (__) )
+		  _\____/___
+		 /  |  |   /\
+		/_________/  \_
+	       /          \    \
+	      /            \    \_	
+	     /              \     \
+	    /    _     _     \     \_
+	   /    / |   //      \      \		Easy peasy lemon squeezy!	
+	  /    //||  //        \      \_
+	 /       || || __       \       \
+	/        || ||/__\       \       \_
+       /         || ||/  \\       \        \
+      /         _||_ \\__//        \        \_
+     /          ----  ----     __   \         \
+    /      _____   _   _   _  //     \        /
+   /      |__ __| / \ | \ | | \\      \      /
+  /         | |  | O ||  \| |  \\      \    /
+ /          |_|   \_/ |_|\__| _//       \  /	
+/________________________________________\/	João C. Cândido 26/Nov/2020
+
+"Mathematics is the art of giving the same name to different things." Henri Poincaré
